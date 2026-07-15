@@ -1,0 +1,8 @@
+{
+  "name": "sage-sprite-audit-game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/game-core.test.js"
+  }
+}

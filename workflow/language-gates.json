@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "note": "Discovery catalog only. A repository must opt in through .sage/gates.json before commands execute.",
+  "languages": {
+    "python": {"gate": "pytest", "tool": "python3", "example_argv": ["python3", "-m", "pytest", "-q"]},
+    "javascript": {"gate": "node-test", "tool": "node", "example_argv": ["node", "--test"]},
+    "typescript": {"gate": "project-test", "tool": "npm", "example_argv": ["npm", "test"]},
+    "go": {"gate": "go-test", "tool": "go", "example_argv": ["go", "test", "./..."]},
+    "rust": {"gate": "cargo-test", "tool": "cargo", "example_argv": ["cargo", "test", "--all-targets"]},
+    "java": {"gate": "project-wrapper", "tool": "java", "example_argv": ["./gradlew", "test"]},
+    "kotlin": {"gate": "project-wrapper", "tool": "java", "example_argv": ["./gradlew", "test"]},
+    "ruby": {"gate": "bundle-test", "tool": "ruby", "example_argv": ["bundle", "exec", "rake", "test"]},
+    "php": {"gate": "composer-test", "tool": "php", "example_argv": ["composer", "test"]},
+    "csharp": {"gate": "dotnet-test", "tool": "dotnet", "example_argv": ["dotnet", "test"]},
+    "swift": {"gate": "swift-test", "tool": "swift", "example_argv": ["swift", "test"]},
+    "c": {"gate": "project-build", "tool": "cmake", "example_argv": ["cmake", "--build", "build"]},
+    "cpp": {"gate": "project-build", "tool": "cmake", "example_argv": ["cmake", "--build", "build"]},
+    "lua": {"gate": "lua-test", "tool": "lua", "example_argv": ["lua", "test.lua"]},
+    "shell": {"gate": "shellcheck", "tool": "shellcheck", "example_argv": ["shellcheck", "{files}"]}
+  }
+}

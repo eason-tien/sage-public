@@ -1,0 +1,48 @@
+repos:
+  - repo: local
+    hooks:
+      - id: codegraph-current
+        name: CodeGraph current
+        entry: python3 tools/check_codegraph.py .
+        language: system
+        pass_filenames: false
+      - id: version-record
+        name: Obsidian version record
+        entry: python3 tools/check_version_record.py --require-staged-update
+        language: system
+        pass_filenames: false
+      - id: workflow-unit-tests
+        name: workflow unit tests
+        entry: python3 -m unittest discover -s tests -p test_*.py
+        language: system
+        pass_filenames: false
+      - id: ruff-check
+        name: ruff check
+        entry: ruff check .
+        language: system
+        pass_filenames: false
+      - id: ruff-format-check
+        name: ruff format check
+        entry: ruff format --check .
+        language: system
+        pass_filenames: false
+      - id: biome-check
+        name: biome check
+        entry: zsh -c 'biome check biome.json examples/sprite-audit-game benchmarks/sprite-game-hidden/game-hidden.test.js && cd benchmarks/fixture && biome check biome.json src/singleflight.js'
+        language: system
+        pass_filenames: false
+      - id: sprite-game-audit
+        name: sprite game audit
+        entry: python3 tools/audit_sprite_game.py --no-write
+        language: system
+        pass_filenames: false
+      - id: gitleaks
+        name: gitleaks
+        entry: gitleaks detect --no-git --redact --source .
+        language: system
+        pass_filenames: false
+      - id: actionlint
+        name: actionlint
+        entry: actionlint
+        language: system
+        pass_filenames: false

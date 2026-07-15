@@ -1,0 +1,5 @@
+[allowlist]
+description = "Pinned third-party benchmark clones are scanned and reported separately"
+paths = [
+  '''^runs/real-repos/''',
+]

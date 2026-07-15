@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="SAGE 審計用原創小精靈遊戲" />
+    <title>星光小精靈 · SAGE Audit Game</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <p class="eyebrow">SAGE AUDIT FIXTURE · R5 PENDING</p>
+        <h1>星光小精靈</h1>
+        <p class="lede">收集迷宮裡的星光，打開青色星門。這個遊戲同時是可機械驗收的 UI 審計樣本。</p>
+      </header>
+
+      <section class="game-card" aria-label="星光小精靈遊戲">
+        <div class="hud">
+          <span>分數 <strong id="score">0</strong></span>
+          <span>生命 <strong id="lives">◆◆◆</strong></span>
+          <span>星光 <strong id="stars">0</strong></span>
+        </div>
+        <div class="canvas-wrap">
+          <canvas id="game" tabindex="0" aria-label="迷宮遊戲畫面"></canvas>
+        </div>
+        <p id="status" class="status" aria-live="polite">載入中…</p>
+        <fieldset class="controls">
+          <legend class="sr-only">移動控制</legend>
+          <button type="button" data-direction="up" aria-label="向上">▲</button>
+          <div>
+            <button type="button" data-direction="left" aria-label="向左">◀</button>
+            <button type="button" data-direction="down" aria-label="向下">▼</button>
+            <button type="button" data-direction="right" aria-label="向右">▶</button>
+          </div>
+          <button id="restart" type="button">重新開始 · R</button>
+        </fieldset>
+      </section>
+
+      <aside class="audit-card" aria-label="SAGE evidence 狀態">
+        <div>
+          <p class="eyebrow">LIGHTWEIGHT EVIDENCE UI</p>
+          <h2>每一步都有狀態</h2>
+          <p>遊戲核心輸出可序列化快照；自動綠不會把 R5 或 merge 改成 true。</p>
+        </div>
+        <pre id="audit-json">{}</pre>
+      </aside>
+
+      <footer>鍵盤：方向鍵／WASD · 觸控：畫面按鈕 · Enter／R：重開</footer>
+    </main>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
