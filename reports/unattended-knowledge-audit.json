@@ -1,0 +1,393 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-15T02:11:24.305555+00:00",
+  "automated_gates_passed": true,
+  "r5_human_verification": "pending",
+  "merge_authorized": false,
+  "source_head": "4d6238e6276e02525cafe9b0c91ace406c5bad9e",
+  "preflight": {
+    "schema_version": 1,
+    "prepared_at": "2026-07-15T02:09:30.749261+00:00",
+    "ready": true,
+    "project_id": "multi-cli-workflow-lab",
+    "task_id": "20260715T020931462241Z-unattended-governance-upgrade",
+    "task_name": "unattended-governance-upgrade",
+    "task_note": "Tasks/multi-cli-workflow-lab/20260715T020931462241Z-unattended-governance-upgrade.md",
+    "route": "high",
+    "repository": "$PROJECT_ROOT",
+    "source_head": "4d6238e6276e02525cafe9b0c91ace406c5bad9e",
+    "spec_sha256": "750dea144106b8f3e8c9ce2a37c6f4ecb6a23c0ecfaf2498b5fc9e5150f31618",
+    "acceptance_sha256": "33e3857d6e7e0fbf9e21e759ef35a8d3122a804b860b5f9528fc904f08f599b5",
+    "acceptance_count": 3,
+    "languages": [
+      "javascript",
+      "python",
+      "shell"
+    ],
+    "language_notes": [
+      "Topics/Languages/javascript.md",
+      "Topics/Languages/python.md",
+      "Topics/Languages/shell.md"
+    ],
+    "missing_knowledge": [],
+    "stitch": {
+      "required": false,
+      "design_path": null,
+      "design_sha256": null
+    },
+    "capability": {
+      "route": "high",
+      "required": [
+        "agy",
+        "codex",
+        "claude",
+        "git",
+        "gitleaks",
+        "codegraph"
+      ],
+      "tools": {
+        "agy": {
+          "available": true,
+          "exit_code": 0,
+          "version": "1.1.2",
+          "command": [
+            "agy",
+            "--version"
+          ],
+          "duration_seconds": 0.195
+        },
+        "codex": {
+          "available": true,
+          "exit_code": 0,
+          "version": "codex-cli 0.144.1",
+          "command": [
+            "codex",
+            "--version"
+          ],
+          "duration_seconds": 0.097
+        },
+        "claude": {
+          "available": true,
+          "exit_code": 0,
+          "version": "2.1.207 (Claude Code)",
+          "command": [
+            "claude",
+            "--version"
+          ],
+          "duration_seconds": 0.326
+        },
+        "git": {
+          "available": true,
+          "exit_code": 0,
+          "version": "git version 2.50.1 (Apple Git-155)",
+          "command": [
+            "git",
+            "--version"
+          ],
+          "duration_seconds": 0.009
+        },
+        "gitleaks": {
+          "available": true,
+          "exit_code": 0,
+          "version": "8.30.1",
+          "command": [
+            "gitleaks",
+            "version"
+          ],
+          "duration_seconds": 0.006
+        },
+        "codegraph": {
+          "available": true,
+          "exit_code": 0,
+          "version": "1.1.6",
+          "command": [
+            "codegraph",
+            "version"
+          ],
+          "duration_seconds": 0.045
+        },
+        "obsidian": {
+          "available": true,
+          "exit_code": 0,
+          "version": "Obsidian desktop CLI available",
+          "command": [
+            "obsidian"
+          ]
+        },
+        "evidence_signing_key": {
+          "available": true,
+          "exit_code": 0,
+          "version": "private and public key present",
+          "command": [
+            "filesystem",
+            "signing-key-pair"
+          ]
+        }
+      },
+      "passed": true
+    },
+    "current_version": "0.1.31",
+    "planned_version": "0.1.32",
+    "briefing_sha256": "4bed1dd90cc12ef7c2b94bed4ffa9dc86116bbfed96c1d833e51ad9185566098",
+    "codegraph": {
+      "status": "current",
+      "action": "sync",
+      "files": 52,
+      "nodes": 1112,
+      "edges": 3370
+    }
+  },
+  "knowledge": {
+    "schema_version": 1,
+    "project_id": "multi-cli-workflow-lab",
+    "task_id": "20260715T020931462241Z-unattended-governance-upgrade",
+    "completed_at": "2026-07-15T02:11:20.255153+00:00",
+    "version": "0.1.32",
+    "version_bumped": true,
+    "memory_distilled": true,
+    "codegraph_current": true,
+    "shared_briefing_sha256": "4bed1dd90cc12ef7c2b94bed4ffa9dc86116bbfed96c1d833e51ad9185566098",
+    "repository_vault": "knowledge",
+    "repository_file_count": 7,
+    "artifacts": {
+      "briefing.md": "4bed1dd90cc12ef7c2b94bed4ffa9dc86116bbfed96c1d833e51ad9185566098",
+      "task-note.md": "60d1e8b0d95077a22252049f13bc8c4c9db795f2cbe46ba0430f2228a12a9e25",
+      "Memory.md": "f3c51ef11c167db45426228904c60805e097e5980c35616f0ed26a21afda944e",
+      "Ver.md": "bfdb284a56ef68af2d44cf1f67cdb4e8f8cfaa4d7599813cacd8eb2b1288759d",
+      "State.json": "c208e21e315a099b0c49b7f4cf0105a26b6cd8a812723f11194a10e4f033e8f0",
+      "repository/knowledge/Projects/multi-cli-workflow-lab/Memory.md": "f3c51ef11c167db45426228904c60805e097e5980c35616f0ed26a21afda944e",
+      "repository/knowledge/Projects/multi-cli-workflow-lab/State.json": "c208e21e315a099b0c49b7f4cf0105a26b6cd8a812723f11194a10e4f033e8f0",
+      "repository/knowledge/Projects/multi-cli-workflow-lab/Ver.md": "bfdb284a56ef68af2d44cf1f67cdb4e8f8cfaa4d7599813cacd8eb2b1288759d",
+      "repository/knowledge/Tasks/multi-cli-workflow-lab/20260715T020931462241Z-unattended-governance-upgrade.md": "60d1e8b0d95077a22252049f13bc8c4c9db795f2cbe46ba0430f2228a12a9e25",
+      "repository/knowledge/Topics/Languages/javascript.md": "e920c1356289835566d651c0729f7ad0c475f7472f2c2bd9f7c4f44087eb9bca",
+      "repository/knowledge/Topics/Languages/python.md": "cb5a25ce2e765ddee2aed15f9758b154033ab9d5ec41b8613706a07623463d62",
+      "repository/knowledge/Topics/Languages/shell.md": "8bbf03c8a62cc9b067677b8a90267b0866e05aa6c7b249867dd391b4c84b9df2",
+      "repository-files.json": "378bcd2201d88fb2c26fb9bddbf77da4787afb4f42cda444f999445e255a7260"
+    },
+    "post_task_sha256": "b50fae7bbc6e8104f0e152b079e6a9df7b0430e5245c64c3325e63e8c216f742"
+  },
+  "checks": {
+    "capability_preflight": {
+      "command": [
+        "sage",
+        "preflight"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0,
+      "output": {
+        "route": "high",
+        "required": [
+          "agy",
+          "codex",
+          "claude",
+          "git",
+          "gitleaks",
+          "codegraph"
+        ],
+        "tools": {
+          "agy": {
+            "available": true,
+            "exit_code": 0,
+            "version": "1.1.2",
+            "command": [
+              "agy",
+              "--version"
+            ],
+            "duration_seconds": 0.195
+          },
+          "codex": {
+            "available": true,
+            "exit_code": 0,
+            "version": "codex-cli 0.144.1",
+            "command": [
+              "codex",
+              "--version"
+            ],
+            "duration_seconds": 0.097
+          },
+          "claude": {
+            "available": true,
+            "exit_code": 0,
+            "version": "2.1.207 (Claude Code)",
+            "command": [
+              "claude",
+              "--version"
+            ],
+            "duration_seconds": 0.326
+          },
+          "git": {
+            "available": true,
+            "exit_code": 0,
+            "version": "git version 2.50.1 (Apple Git-155)",
+            "command": [
+              "git",
+              "--version"
+            ],
+            "duration_seconds": 0.009
+          },
+          "gitleaks": {
+            "available": true,
+            "exit_code": 0,
+            "version": "8.30.1",
+            "command": [
+              "gitleaks",
+              "version"
+            ],
+            "duration_seconds": 0.006
+          },
+          "codegraph": {
+            "available": true,
+            "exit_code": 0,
+            "version": "1.1.6",
+            "command": [
+              "codegraph",
+              "version"
+            ],
+            "duration_seconds": 0.045
+          },
+          "obsidian": {
+            "available": true,
+            "exit_code": 0,
+            "version": "Obsidian desktop CLI available",
+            "command": [
+              "obsidian"
+            ]
+          },
+          "evidence_signing_key": {
+            "available": true,
+            "exit_code": 0,
+            "version": "private and public key present",
+            "command": [
+              "filesystem",
+              "signing-key-pair"
+            ]
+          }
+        },
+        "passed": true
+      }
+    },
+    "relevant_knowledge": {
+      "command": [
+        "knowledge",
+        "retrieve"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0,
+      "output": {
+        "languages": [
+          "javascript",
+          "python",
+          "shell"
+        ],
+        "notes": [
+          "Topics/Languages/javascript.md",
+          "Topics/Languages/python.md",
+          "Topics/Languages/shell.md"
+        ]
+      }
+    },
+    "codegraph_current": {
+      "command": [
+        "codegraph",
+        "sync",
+        "."
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.125,
+      "output": {
+        "files": 52,
+        "nodes": 1112,
+        "edges": 3370
+      }
+    },
+    "shared_cli_briefing": {
+      "command": [
+        "orchestrator",
+        "build-shared-briefing"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0,
+      "output": {
+        "agents": [
+          "agy",
+          "codex",
+          "claude"
+        ],
+        "sha256": "4bed1dd90cc12ef7c2b94bed4ffa9dc86116bbfed96c1d833e51ad9185566098"
+      }
+    },
+    "unit_tests": {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 108.374,
+      "output": "..........................................................................................................................{\n  \"automated_gates_passed\": true,\n  \"r5_human_verification\": \"pending\",\n  \"head\": \"0bfe2ffbabcdfc774fe92cb7fb6fdcbc9a26e5d1\",\n  \"signed\": {\n    \"manifest\": \"/private/var/folders/0z/ncb71rwd4g36f5qf7t9jhkjm0000gn/T/tmppjpw1msz/attestation/evidence/manifest.json\",\n    \"signature\": \"/private/var/folders/0z/ncb71rwd4g36f5qf7t9jhkjm0000gn/T/tmppjpw1msz/attestation/evidence/manifest.json.sig\",\n    \"signer_identity\": \"test-signer\",\n    \"signer_fingerprint\": \"SHA256:IZih6e5+eGvQrzwTU0UB7XLQa/KuRRr0cKuDqXpnj5Q\"\n  },\n  \"verified_fingerprint\": \"SHA256:IZih6e5+eGvQrzwTU0UB7XLQa/KuRRr0cKuDqXpnj5Q\"\n}\n{\n  \"automated_gates_passed\": true,\n  \"r5_human_verification\": \"pending\",\n  \"head\": \"6d3a50e0db8d5bcafb14e55b04f14430e3daafcb\",\n  \"signed\": {\n    \"manifest\": \"/private/var/folders/0z/ncb71rwd4g36f5qf7t9jhkjm0000gn/T/tmpdz9lz3av/attestation/evidence/manifest.json\",\n    \"signature\": \"/private/var/folders/0z/ncb71rwd4g36f5qf7t9jhkjm0000gn/T/tmpdz9lz3av/attestation/evidence/manifest.json.sig\",\n    \"signer_identity\": \"test-signer\",\n    \"signer_fingerprint\": \"SHA256:YvGLuYFFa5vkFCEjxoY553zDjUQz+Gq5InkdAnkeAiM\"\n  },\n  \"verified_fingerprint\": \"SHA256:YvGLuYFFa5vkFCEjxoY553zDjUQz+Gq5InkdAnkeAiM\"\n}\nType exactly to authorize the bound merge:\nMERGE PR #12 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n{\n  \"validation\": \"passed\",\n  \"repository\": \"owner/repo\",\n  \"pr_number\": 12,\n  \"head_sha\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\",\n  \"human_r5_artifact_verified\": true,\n  \"required_checks_verified\": 2,\n  \"merge_executed\": true\n}\n\n\u001b[Kstage=implement agent=agy exit=0 seconds=0.01\n...\n\u001b[Kstage=implement agent=agy exit=42 seconds=0.01\n.......\n----------------------------------------------------------------------\nRan 132 tests in 108.298s\n\nOK\n"
+    },
+    "ruff": {
+      "command": [
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.038,
+      "output": "All checks passed!\n"
+    },
+    "ruff_format": {
+      "command": [
+        "ruff",
+        "format",
+        "--check",
+        "."
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.012,
+      "output": "38 files already formatted\n"
+    },
+    "diff_check": {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.011,
+      "output": ""
+    },
+    "gitleaks": {
+      "command": [
+        "gitleaks",
+        "detect",
+        "--no-git",
+        "--redact",
+        "--source",
+        "."
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.089,
+      "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n9:11AM INF scanned ~4244626 bytes (4.24 MB) in 81.1ms\n9:11AM INF no leaks found\n"
+    },
+    "version_record": {
+      "command": [
+        "python3",
+        "tools/check_version_record.py",
+        "--project-id",
+        "multi-cli-workflow-lab"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 1.386,
+      "output": "{\n  \"passed\": true,\n  \"project_id\": \"multi-cli-workflow-lab\",\n  \"current_version\": \"0.1.32\",\n  \"successful_versions\": 33,\n  \"staged_version_update_required\": false,\n  \"staged_version_update_present\": false,\n  \"staged_candidate_source\": null,\n  \"head_version_update_required\": false,\n  \"head_version_update_present\": false,\n  \"comparison\": null,\n  \"base\": null,\n  \"head\": null\n}\n",
+      "expected_current_version": "0.1.32",
+      "reported_current_version": "0.1.32",
+      "attempts": 1
+    }
+  }
+}

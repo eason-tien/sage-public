@@ -1,0 +1,1466 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-13T03:27:52.593941+00:00",
+  "policy": "External repositories are data only: never execute repository code.",
+  "repository_count": 12,
+  "language_count": 12,
+  "valid_count": 12,
+  "strict_pass_count": 10,
+  "passed": true,
+  "repositories": [
+    {
+      "repo": "pallets/itsdangerous",
+      "sha": "672971d66a2ef9f85151e53283113f33d642dabd",
+      "language": "python",
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/pallets/itsdangerous/commit/672971d66a2ef9f85151e53283113f33d642dabd",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 50,
+      "detected_languages": [
+        "python",
+        "shell"
+      ],
+      "gate_candidate": {
+        "gate": "pytest",
+        "tool": "python3",
+        "example_argv": [
+          "python3",
+          "-m",
+          "pytest",
+          "-q"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.011,
+          "output": "672971d66a2ef9f85151e53283113f33d642dabd\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.01,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.018,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/pallets--itsdangerous",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/pallets--itsdangerous-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.072,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~261538 bytes (261.54 KB) in 64.7ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/pallets/itsdangerous.git",
+            "$PROJECT_ROOT/runs/real-repos/pallets--itsdangerous"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.01,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "672971d66a2ef9f85151e53283113f33d642dabd"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.85,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "672971d66a2ef9f85151e53283113f33d642dabd"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.815,
+          "output": ""
+        }
+      },
+      "duration_seconds": 2.806
+    },
+    {
+      "repo": "sindresorhus/slugify",
+      "sha": "7c318bd1aa4b4affab29761f15a9604323fe2a3b",
+      "language": "javascript",
+      "license": "MIT",
+      "url": "https://github.com/sindresorhus/slugify/commit/7c318bd1aa4b4affab29761f15a9604323fe2a3b",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 13,
+      "detected_languages": [
+        "javascript",
+        "typescript"
+      ],
+      "gate_candidate": {
+        "gate": "node-test",
+        "tool": "node",
+        "example_argv": [
+          "node",
+          "--test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.008,
+          "output": "7c318bd1aa4b4affab29761f15a9604323fe2a3b\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.01,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.008,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/sindresorhus--slugify",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/sindresorhus--slugify-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.024,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~27912 bytes (27.91 KB) in 16.9ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/sindresorhus/slugify.git",
+            "$PROJECT_ROOT/runs/real-repos/sindresorhus--slugify"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.904,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "7c318bd1aa4b4affab29761f15a9604323fe2a3b"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.843,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "7c318bd1aa4b4affab29761f15a9604323fe2a3b"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.603,
+          "output": ""
+        }
+      },
+      "duration_seconds": 2.413
+    },
+    {
+      "repo": "fatih/color",
+      "sha": "53d4ce9d5df3891799a447e772308c76e70bad50",
+      "language": "go",
+      "license": "MIT",
+      "url": "https://github.com/fatih/color/commit/53d4ce9d5df3891799a447e772308c76e70bad50",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 10,
+      "detected_languages": [
+        "go"
+      ],
+      "gate_candidate": {
+        "gate": "go-test",
+        "tool": "go",
+        "example_argv": [
+          "go",
+          "test",
+          "./..."
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.012,
+          "output": "53d4ce9d5df3891799a447e772308c76e70bad50\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.011,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/fatih--color",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/fatih--color-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.026,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~50881 bytes (50.88 KB) in 18.1ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/fatih/color.git",
+            "$PROJECT_ROOT/runs/real-repos/fatih--color"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.933,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "53d4ce9d5df3891799a447e772308c76e70bad50"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.855,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "53d4ce9d5df3891799a447e772308c76e70bad50"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.644,
+          "output": ""
+        }
+      },
+      "duration_seconds": 2.505
+    },
+    {
+      "repo": "BurntSushi/memchr",
+      "sha": "bce7df7140acff420478a358cde5587904000cb1",
+      "language": "rust",
+      "license": "Unlicense",
+      "url": "https://github.com/BurntSushi/memchr/commit/bce7df7140acff420478a358cde5587904000cb1",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 183,
+      "detected_languages": [
+        "rust"
+      ],
+      "gate_candidate": {
+        "gate": "cargo-test",
+        "tool": "cargo",
+        "example_argv": [
+          "cargo",
+          "test",
+          "--all-targets"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": "bce7df7140acff420478a358cde5587904000cb1\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.082,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.079,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/BurntSushi--memchr",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/BurntSushi--memchr-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.581,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~14613818 bytes (14.61 MB) in 572ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/BurntSushi/memchr.git",
+            "$PROJECT_ROOT/runs/real-repos/BurntSushi--memchr"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.283,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "bce7df7140acff420478a358cde5587904000cb1"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.872,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "bce7df7140acff420478a358cde5587904000cb1"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.496,
+          "output": ""
+        }
+      },
+      "duration_seconds": 4.437
+    },
+    {
+      "repo": "junit-team/junit4",
+      "sha": "300468b1efd48d76fac2f7bd6d576846dcbbf5ed",
+      "language": "java",
+      "license": "EPL-1.0",
+      "url": "https://github.com/junit-team/junit4/commit/300468b1efd48d76fac2f7bd6d576846dcbbf5ed",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 619,
+      "detected_languages": [
+        "java",
+        "javascript",
+        "shell"
+      ],
+      "gate_candidate": {
+        "gate": "project-wrapper",
+        "tool": "java",
+        "example_argv": [
+          "./gradlew",
+          "test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.008,
+          "output": "300468b1efd48d76fac2f7bd6d576846dcbbf5ed\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.027,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.023,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/junit-team--junit4",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/junit-team--junit4-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.08,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~1939416 bytes (1.94 MB) in 72.3ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/junit-team/junit4.git",
+            "$PROJECT_ROOT/runs/real-repos/junit-team--junit4"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.244,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "300468b1efd48d76fac2f7bd6d576846dcbbf5ed"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.869,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "300468b1efd48d76fac2f7bd6d576846dcbbf5ed"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.057,
+          "output": ""
+        }
+      },
+      "duration_seconds": 3.389
+    },
+    {
+      "repo": "square/moshi",
+      "sha": "889013ec2edb8d8034902662a1dc8c4f3b3f8111",
+      "language": "kotlin",
+      "license": "Apache-2.0",
+      "url": "https://github.com/square/moshi/commit/889013ec2edb8d8034902662a1dc8c4f3b3f8111",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 183,
+      "detected_languages": [
+        "java",
+        "kotlin"
+      ],
+      "gate_candidate": {
+        "gate": "project-wrapper",
+        "tool": "java",
+        "example_argv": [
+          "./gradlew",
+          "test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.01,
+          "output": "889013ec2edb8d8034902662a1dc8c4f3b3f8111\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.02,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/square--moshi",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/square--moshi-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.085,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~1209092 bytes (1.21 MB) in 77.2ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/square/moshi.git",
+            "$PROJECT_ROOT/runs/real-repos/square--moshi"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.371,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "889013ec2edb8d8034902662a1dc8c4f3b3f8111"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.861,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "889013ec2edb8d8034902662a1dc8c4f3b3f8111"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.939,
+          "output": ""
+        }
+      },
+      "duration_seconds": 3.336
+    },
+    {
+      "repo": "rack/rack",
+      "sha": "0a07b6e74c102a138773b7add73bbd4aba185ef4",
+      "language": "ruby",
+      "license": "MIT",
+      "url": "https://github.com/rack/rack/commit/0a07b6e74c102a138773b7add73bbd4aba185ef4",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 185,
+      "detected_languages": [
+        "javascript",
+        "ruby"
+      ],
+      "gate_candidate": {
+        "gate": "bundle-test",
+        "tool": "ruby",
+        "example_argv": [
+          "bundle",
+          "exec",
+          "rake",
+          "test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": "0a07b6e74c102a138773b7add73bbd4aba185ef4\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.022,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.02,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/rack--rack",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/rack--rack-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.614,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~5088923 bytes (5.09 MB) in 605ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/rack/rack.git",
+            "$PROJECT_ROOT/runs/real-repos/rack--rack"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.482,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "0a07b6e74c102a138773b7add73bbd4aba185ef4"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.913,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "0a07b6e74c102a138773b7add73bbd4aba185ef4"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.301,
+          "output": ""
+        }
+      },
+      "duration_seconds": 4.393
+    },
+    {
+      "repo": "sebastianbergmann/version",
+      "sha": "bce09f605bea2f286401dc0a55db655609ba0c4c",
+      "language": "php",
+      "license": "BSD-3-Clause",
+      "url": "https://github.com/sebastianbergmann/version/commit/bce09f605bea2f286401dc0a55db655609ba0c4c",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": false,
+      "gitleaks_findings": [
+        {
+          "rule_id": "generic-api-key",
+          "file": "tools/.phpstan/vendor/phpstan/phpstan/phpstan.phar",
+          "line": 86680,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tools/.phpstan/vendor/phpstan/phpstan/phpstan.phar",
+          "line": 569909,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tools/.phpstan/vendor/phpstan/phpstan/phpstan.phar",
+          "line": 569909,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tools/.phpstan/vendor/phpstan/phpstan/phpstan.phar",
+          "line": 569909,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tools/.phpstan/vendor/phpstan/phpstan/phpstan.phar",
+          "line": 569924,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        }
+      ],
+      "file_count": 171,
+      "detected_languages": [
+        "php"
+      ],
+      "gate_candidate": {
+        "gate": "composer-test",
+        "tool": "php",
+        "example_argv": [
+          "composer",
+          "test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": "bce09f605bea2f286401dc0a55db655609ba0c4c\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.063,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.062,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/sebastianbergmann--version",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/sebastianbergmann--version-gitleaks.json"
+          ],
+          "exit_code": 1,
+          "duration_seconds": 7.148,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~34947588 bytes (34.95 MB) in 7.14s\n10:27AM WRN leaks found: 5\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/sebastianbergmann/version.git",
+            "$PROJECT_ROOT/runs/real-repos/sebastianbergmann--version"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.99,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "bce09f605bea2f286401dc0a55db655609ba0c4c"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.863,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "bce09f605bea2f286401dc0a55db655609ba0c4c"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 2.318,
+          "output": ""
+        }
+      },
+      "duration_seconds": 11.485
+    },
+    {
+      "repo": "spectreconsole/spectre.console",
+      "sha": "3ba1023095399bb6a50d4f9f2f194d3d4d28187e",
+      "language": "csharp",
+      "license": "MIT",
+      "url": "https://github.com/spectreconsole/spectre.console/commit/3ba1023095399bb6a50d4f9f2f194d3d4d28187e",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 784,
+      "detected_languages": [
+        "csharp"
+      ],
+      "gate_candidate": {
+        "gate": "dotnet-test",
+        "tool": "dotnet",
+        "example_argv": [
+          "dotnet",
+          "test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": "3ba1023095399bb6a50d4f9f2f194d3d4d28187e\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.043,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.04,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/spectreconsole--spectre.console",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/spectreconsole--spectre.console-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.395,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~5286370 bytes (5.29 MB) in 387ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/spectreconsole/spectre.console.git",
+            "$PROJECT_ROOT/runs/real-repos/spectreconsole--spectre.console"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.065,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "3ba1023095399bb6a50d4f9f2f194d3d4d28187e"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.869,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "3ba1023095399bb6a50d4f9f2f194d3d4d28187e"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.209,
+          "output": ""
+        }
+      },
+      "duration_seconds": 3.732
+    },
+    {
+      "repo": "apple/swift-argument-parser",
+      "sha": "e579882f95579e7d7eb8c8068a5925c65d361e91",
+      "language": "swift",
+      "license": "Apache-2.0",
+      "url": "https://github.com/apple/swift-argument-parser/commit/e579882f95579e7d7eb8c8068a5925c65d361e91",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 270,
+      "detected_languages": [
+        "shell",
+        "swift"
+      ],
+      "gate_candidate": {
+        "gate": "swift-test",
+        "tool": "swift",
+        "example_argv": [
+          "swift",
+          "test"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": "e579882f95579e7d7eb8c8068a5925c65d361e91\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.018,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.015,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/apple--swift-argument-parser",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/apple--swift-argument-parser-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.113,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~1383589 bytes (1.38 MB) in 105ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/apple/swift-argument-parser.git",
+            "$PROJECT_ROOT/runs/real-repos/apple--swift-argument-parser"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.025,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "e579882f95579e7d7eb8c8068a5925c65d361e91"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.874,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "e579882f95579e7d7eb8c8068a5925c65d361e91"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 1.519,
+          "output": ""
+        }
+      },
+      "duration_seconds": 3.613
+    },
+    {
+      "repo": "DaveGamble/cJSON",
+      "sha": "fb16e5cf358798aabb049655975cde8427101056",
+      "language": "c",
+      "license": "MIT",
+      "url": "https://github.com/DaveGamble/cJSON/commit/fb16e5cf358798aabb049655975cde8427101056",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": false,
+      "gitleaks_findings": [
+        {
+          "rule_id": "generic-api-key",
+          "file": "tests/unity/test/testdata/testRunnerGenerator.c",
+          "line": 115,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tests/unity/test/testdata/testRunnerGenerator.c",
+          "line": 127,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tests/unity/test/testdata/testRunnerGeneratorWithMocks.c",
+          "line": 116,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        },
+        {
+          "rule_id": "generic-api-key",
+          "file": "tests/unity/test/testdata/testRunnerGeneratorWithMocks.c",
+          "line": 128,
+          "description": "Detected a Generic API Key, potentially exposing access to various services and sensitive operations."
+        }
+      ],
+      "file_count": 229,
+      "detected_languages": [
+        "c",
+        "python",
+        "ruby",
+        "shell"
+      ],
+      "gate_candidate": {
+        "gate": "project-build",
+        "tool": "cmake",
+        "example_argv": [
+          "cmake",
+          "--build",
+          "build"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.01,
+          "output": "fb16e5cf358798aabb049655975cde8427101056\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.019,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.01,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/DaveGamble--cJSON",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/DaveGamble--cJSON-gitleaks.json"
+          ],
+          "exit_code": 1,
+          "duration_seconds": 0.081,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~1137743 bytes (1.14 MB) in 73.2ms\n10:27AM WRN leaks found: 4\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/DaveGamble/cJSON.git",
+            "$PROJECT_ROOT/runs/real-repos/DaveGamble--cJSON"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.999,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "fb16e5cf358798aabb049655975cde8427101056"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.853,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "fb16e5cf358798aabb049655975cde8427101056"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.812,
+          "output": ""
+        }
+      },
+      "duration_seconds": 2.822
+    },
+    {
+      "repo": "rxi/json.lua",
+      "sha": "dbf4b2dd2eb7c23be2773c89eb059dadd6436f94",
+      "language": "lua",
+      "license": "MIT",
+      "url": "https://github.com/rxi/json.lua/commit/dbf4b2dd2eb7c23be2773c89eb059dadd6436f94",
+      "passed": true,
+      "benchmark_valid": true,
+      "strict_gates_passed": true,
+      "gitleaks_findings": [],
+      "file_count": 10,
+      "detected_languages": [
+        "lua",
+        "shell"
+      ],
+      "gate_candidate": {
+        "gate": "lua-test",
+        "tool": "lua",
+        "example_argv": [
+          "lua",
+          "test.lua"
+        ]
+      },
+      "external_code_executed": false,
+      "checks": {
+        "head": {
+          "command": [
+            "git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.011,
+          "output": "dbf4b2dd2eb7c23be2773c89eb059dadd6436f94\n"
+        },
+        "clean": {
+          "command": [
+            "git",
+            "status",
+            "--porcelain"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.011,
+          "output": ""
+        },
+        "diff_check": {
+          "command": [
+            "git",
+            "diff",
+            "--check"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.009,
+          "output": ""
+        },
+        "gitleaks": {
+          "command": [
+            "gitleaks",
+            "detect",
+            "--no-git",
+            "--redact",
+            "--source",
+            "$PROJECT_ROOT/runs/real-repos/rxi--json.lua",
+            "--report-format",
+            "json",
+            "--report-path",
+            "$PROJECT_ROOT/runs/real-repos/rxi--json.lua-gitleaks.json"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.022,
+          "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n10:27AM INF scanned ~23087 bytes (23.09 KB) in 14.7ms\n10:27AM INF no leaks found\n"
+        }
+      },
+      "setup": {
+        "clone": {
+          "command": [
+            "git",
+            "clone",
+            "--quiet",
+            "--filter=blob:none",
+            "--no-checkout",
+            "https://github.com/rxi/json.lua.git",
+            "$PROJECT_ROOT/runs/real-repos/rxi--json.lua"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.874,
+          "output": ""
+        },
+        "fetch": {
+          "command": [
+            "git",
+            "fetch",
+            "--quiet",
+            "--depth=1",
+            "origin",
+            "dbf4b2dd2eb7c23be2773c89eb059dadd6436f94"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.866,
+          "output": ""
+        },
+        "checkout": {
+          "command": [
+            "git",
+            "checkout",
+            "--quiet",
+            "--detach",
+            "dbf4b2dd2eb7c23be2773c89eb059dadd6436f94"
+          ],
+          "exit_code": 0,
+          "duration_seconds": 0.643,
+          "output": ""
+        }
+      },
+      "duration_seconds": 2.451
+    }
+  ]
+}

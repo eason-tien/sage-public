@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-14T17:12:17.212857+00:00",
+  "automated_gates_passed": true,
+  "r5_human_verification": "pending",
+  "merge_authorized": false,
+  "public_only": false,
+  "checks": {
+    "public_node_tests": {
+      "command": [
+        "node",
+        "--test",
+        "test/game-core.test.js"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.054,
+      "output": "\u2714 layout parser rejects missing audit-critical entities (0.386875ms)\n\u2714 wall blocks movement without changing the player position (0.361042ms)\n\u2714 collecting a star increments score and removes exactly one star (0.086291ms)\n\u2714 portal is fail-closed while stars remain (0.116458ms)\n\u2714 serialized audit state never authorizes merge or claims R5 (0.0575ms)\n\u2714 invalid directions fail explicitly (0.050542ms)\n\u2139 tests 6\n\u2139 suites 0\n\u2139 pass 6\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 31.156042\n"
+    },
+    "biome": {
+      "command": [
+        "biome",
+        "check",
+        "index.html",
+        "styles.css",
+        "game-core.js",
+        "game.js",
+        "package.json",
+        ".sage/gates.json"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.042,
+      "output": "Checked 6 files in 32ms. No fixes applied.\n"
+    },
+    "http_smoke": {
+      "exit_code": 0,
+      "output": {
+        "index.html": {
+          "status": 200,
+          "bytes": 2264
+        },
+        "game.js": {
+          "status": 200,
+          "bytes": 4074
+        },
+        "game-core.js": {
+          "status": 200,
+          "bytes": 6720
+        },
+        "styles.css": {
+          "status": 200,
+          "bytes": 3113
+        }
+      }
+    },
+    "structural_ui": {
+      "exit_code": 0,
+      "output": {
+        "missing": [],
+        "unsafe_state": false
+      }
+    },
+    "plugin_discovery": {
+      "exit_code": 0,
+      "output": {
+        "diff_check": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "gitleaks": [
+          "gitleaks",
+          "detect",
+          "--no-git",
+          "--redact",
+          "--source",
+          "$PROJECT_ROOT/examples/sprite-audit-game"
+        ],
+        "sprite_game_tests": [
+          "node",
+          "--test",
+          "test/game-core.test.js"
+        ]
+      }
+    },
+    "acceptance_lock": {
+      "exit_code": 0,
+      "output": {
+        "expected": "6eee0ace53ad5fbf646dacc63f022df0993e9e9006a27d3073099443d4e8ba8e",
+        "actual": "6eee0ace53ad5fbf646dacc63f022df0993e9e9006a27d3073099443d4e8ba8e"
+      }
+    },
+    "hidden_node_tests": {
+      "command": [
+        "<redacted-hidden-test>"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.08,
+      "output": {
+        "redacted": true,
+        "sha256": "a8ea8f8557bdbe8880bfc15b81b652afb44a86c1fc0afa062455acf455323e22",
+        "bytes": 509
+      }
+    },
+    "gitleaks": {
+      "command": [
+        "gitleaks",
+        "detect",
+        "--no-git",
+        "--redact",
+        "--source",
+        "$PROJECT_ROOT/examples/sprite-audit-game"
+      ],
+      "exit_code": 0,
+      "duration_seconds": 0.02,
+      "output": "\n    \u25cb\n    \u2502\u2572\n    \u2502 \u25cb\n    \u25cb \u2591\n    \u2591    gitleaks\n\n12:12AM INF scanned ~19966 bytes (19.97 KB) in 13.2ms\n12:12AM INF no leaks found\n"
+    }
+  }
+}

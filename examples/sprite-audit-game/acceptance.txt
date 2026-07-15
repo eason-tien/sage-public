@@ -1,0 +1,4 @@
+# SAGE mechanical acceptance: one command per line; exit 0 means pass.
+node --test test/game-core.test.js
+biome check index.html styles.css game-core.js game.js package.json .sage/gates.json
+python3 ../../tools/audit_sprite_game.py --public-only
