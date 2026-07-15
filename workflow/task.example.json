@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "execution": {
+    "repo": "../path-to-project",
+    "route": "high",
+    "name": "issue-123",
+    "run_dir": "../runs/pilots/issue-123",
+    "spec": "../path-to-task.md",
+    "acceptance": ["python3 -m pytest -q"]
+  },
+  "scope": {
+    "allow_new": ["src/**"],
+    "allow_change": ["src/**"],
+    "allow_test_change": []
+  },
+  "budget": {
+    "max_turns": 6,
+    "token_budget": 300000,
+    "cost_budget_usd": 25.0,
+    "total_timeout_seconds": 3600,
+    "stage_idle_timeout_seconds": 300,
+    "heartbeat_interval_seconds": 5
+  },
+  "evidence": {
+    "signing_key": "~/.config/sage/evidence_ed25519",
+    "signer_identity": "eason-tien-sage",
+    "allowed_signers": "trusted_signers"
+  },
+  "knowledge": {
+    "vault": "../knowledge",
+    "project_id": "example-project",
+    "require_codegraph": true,
+    "require_version_record": true,
+    "shared_read_only": true,
+    "require_stitch_for_ui": true,
+    "stitch_design": null
+  },
+  "promotion": {
+    "branch": "codex/issue-123",
+    "base": "main",
+    "draft_only": true,
+    "automatic_merge": false,
+    "r5_human_verification": "pending",
+    "merge_authorized": false,
+    "wait_timeout_seconds": 1800,
+    "poll_interval_seconds": 10
+  }
+}

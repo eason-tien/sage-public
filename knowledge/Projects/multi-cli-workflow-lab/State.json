@@ -1,0 +1,2467 @@
+{
+  "schema_version": 2,
+  "project_id": "multi-cli-workflow-lab",
+  "repository": "Codex 2",
+  "current_version": "0.1.32",
+  "history": [
+    {
+      "task_id": "20260713T044102460688Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T04:41:19.335692+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "b3c09b1d0b96248901298edb519c9aa64716da2e",
+      "version": "0.1.0",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        ".pre-commit-config.yaml",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "justfile",
+        "knowledge/.gitignore",
+        "knowledge/.obsidian/app.json",
+        "knowledge/Home.md",
+        "knowledge/System/Memory Policy.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044102460688Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "tests/test_workflow.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_codegraph.py",
+        "tools/check_version_record.py",
+        "tools/lab.py",
+        "workflow/README.md",
+        "workflow/codegraph.py",
+        "workflow/config.json",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/preflight.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "workflow/sage.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T044102460688Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "39a55f71fd3c8fa2e3cb6602cdb6dd8766463a209d0dcfd4aebdc478b8e2e991",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 546,
+        "edges": 1447
+      }
+    },
+    {
+      "task_id": "20260713T044754465739Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T04:48:11.767509+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "b3c09b1d0b96248901298edb519c9aa64716da2e",
+      "version": "0.1.1",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        ".pre-commit-config.yaml",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "justfile",
+        "knowledge/.gitignore",
+        "knowledge/.obsidian/app.json",
+        "knowledge/Home.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/System/Memory Policy.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044102460688Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044754465739Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "reports/sprite-game-audit.json",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "tests/test_workflow.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_codegraph.py",
+        "tools/check_version_record.py",
+        "tools/lab.py",
+        "tools/run_flow.py",
+        "workflow/README.md",
+        "workflow/codegraph.py",
+        "workflow/config.json",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/preflight.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "workflow/sage.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T044754465739Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "8996df3092c055b1dbea4222022c4eddac69743a83f2ef4ba47e31e9223c8170",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 555,
+        "edges": 1482
+      }
+    },
+    {
+      "task_id": "20260713T045126359040Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T04:51:43.531955+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "b3c09b1d0b96248901298edb519c9aa64716da2e",
+      "version": "0.1.2",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        ".pre-commit-config.yaml",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "justfile",
+        "knowledge/.gitignore",
+        "knowledge/.obsidian/app.json",
+        "knowledge/Home.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/System/Memory Policy.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044102460688Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044754465739Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T045126359040Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "reports/sprite-game-audit.json",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "tests/test_workflow.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_codegraph.py",
+        "tools/check_version_record.py",
+        "tools/lab.py",
+        "tools/run_flow.py",
+        "workflow/README.md",
+        "workflow/codegraph.py",
+        "workflow/config.json",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/preflight.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "workflow/sage.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T045126359040Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "958b42db63bb4faa873bd1e4a137e7a20807afa8f21a02b2b6002b38da2f11ea",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 559,
+        "edges": 1489
+      }
+    },
+    {
+      "task_id": "20260713T045305083076Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T04:53:21.943366+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "b3c09b1d0b96248901298edb519c9aa64716da2e",
+      "version": "0.1.3",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        ".codegraph/.gitignore",
+        ".github/workflows/ci.yml",
+        ".pre-commit-config.yaml",
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "justfile",
+        "knowledge/.gitignore",
+        "knowledge/.obsidian/app.json",
+        "knowledge/Home.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/System/Memory Policy.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044102460688Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T044754465739Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T045126359040Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T045305083076Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "reports/sprite-game-audit.json",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "tests/test_workflow.py",
+        "tools/audit_sprite_game.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_codegraph.py",
+        "tools/check_version_record.py",
+        "tools/lab.py",
+        "tools/run_flow.py",
+        "workflow/README.md",
+        "workflow/codegraph.py",
+        "workflow/config.json",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/preflight.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "workflow/sage.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T045305083076Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "bdf744a2d1c81f8f3a598a788dad83d9f300c62d6010cee59223b927eb80ea23",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 559,
+        "edges": 1489
+      }
+    },
+    {
+      "task_id": "20260713T050533237785Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T05:05:51.202043+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "1e1c6718a50f9da5600275ec45dfc2229d3abc4a",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "knowledge/Home.md",
+        "knowledge/System/Memory Policy.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T050533237785Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Tools/stitch.md",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "tests/test_workflow.py",
+        "workflow/README.md",
+        "workflow/config.json",
+        "workflow/knowledge.py",
+        "workflow/preflight.py",
+        "workflow/run.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [
+        "capability_preflight",
+        "relevant_knowledge"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: capability_preflight, relevant_knowledge",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T050533237785Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "e0f6334f7f10ebd7c559b19a3ecf82dca8c09fd6a33143e6d6dd98d1cbe8a418",
+      "codegraph": {
+        "status": "required_before_dispatch"
+      },
+      "stitch": {
+        "required": true,
+        "design_sha256": null,
+        "artifact_name": "STITCH_DESIGN.md"
+      }
+    },
+    {
+      "task_id": "20260713T050709134878Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T05:07:27.282126+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "1e1c6718a50f9da5600275ec45dfc2229d3abc4a",
+      "version": "0.1.4",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "GEMINI.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "knowledge/Home.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/System/Memory Policy.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T050533237785Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T050709134878Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Tools/stitch.md",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "tests/test_workflow.py",
+        "workflow/README.md",
+        "workflow/config.json",
+        "workflow/knowledge.py",
+        "workflow/preflight.py",
+        "workflow/run.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T050709134878Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "430f9b6007145675ba683625aa33098b7507a040e97a315a2deb8337e2b57981",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 567,
+        "edges": 1516
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T052116839672Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T05:21:36.268401+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "f0782c8f19a321111e06e126389758293c3ad4d9",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        "AGENTS.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T052116839672Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Tools/stitch.md",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "workflow/README.md",
+        "workflow/config.json",
+        "workflow/knowledge.py"
+      ],
+      "failing_checks": [
+        "ruff_format"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: ruff_format",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T052116839672Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "3a2c75f05dab5f5ba183e8c342ec20c026c0136537c5778aa38c8398d48bdfc2",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 571,
+        "edges": 1526
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T052159360962Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-13T05:22:18.623261+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "f0782c8f19a321111e06e126389758293c3ad4d9",
+      "version": "0.1.5",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        "AGENTS.md",
+        "README.md",
+        "docs/unattended-knowledge-objective.md",
+        "docs/unattended-knowledge.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T052116839672Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T052159360962Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Tools/stitch.md",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_knowledge.py",
+        "workflow/README.md",
+        "workflow/config.json",
+        "workflow/knowledge.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T052159360962Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "295c46afb56a0c1d8bfa410f5e12fadbb8a151077264fe9bf2ae6f45ac70fa70",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 571,
+        "edges": 1526
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T054946881077Z-github-history-integration",
+      "task_name": "github-history-integration",
+      "completed_at": "2026-07-13T05:56:06.874746+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "652c0cf201a19780a0c4783b19695d12deec0a97",
+      "version": "0.1.6",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python"
+      ],
+      "changed_files": [
+        ".gitattributes",
+        ".gitignore",
+        "DESIGN.md",
+        "HOOKS.md",
+        "LICENSE",
+        "README.md",
+        "SOP_CHANGELOG.md",
+        "SOP_VERSION",
+        "artifacts-example/EXAMPLE-mes-comm.md",
+        "checklists/final-acceptance.md",
+        "checklists/goal-gates.md",
+        "checklists/plan-review.md",
+        "checklists/routing.md",
+        "dogfood/RUN-2026-06-18.md",
+        "dogfood/acceptance.txt",
+        "dogfood/acceptance.txt.lock",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T054946881077Z-github-history-integration.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "prompts/01-spec.md",
+        "prompts/02-research.md",
+        "prompts/03-plan.md",
+        "prompts/04-review-crosscheck.md",
+        "prompts/05-goal.md",
+        "sage.ps1",
+        "scripts/acceptance-lock.ps1",
+        "scripts/acceptance-lock.sh",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/new-task.ps1",
+        "scripts/new-task.sh",
+        "scripts/preflight.ps1",
+        "scripts/preflight.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "scripts/verify.ps1",
+        "scripts/verify.sh",
+        "templates/CONTRACT.md",
+        "templates/HANDOFF.md",
+        "templates/PROGRESS.md",
+        "templates/lessons.md",
+        "workflows/README.md",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T054946881077Z-github-history-integration.md",
+      "briefing_sha256": "d402201ff693ec3caba77b94a1bc12879b405ab98353c400d6fdbcb6bfcebadc",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 33,
+        "nodes": 571,
+        "edges": 1526
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T060208204111Z-fix-github-ci-gitleaks-module",
+      "task_name": "fix-github-ci-gitleaks-module",
+      "completed_at": "2026-07-13T06:03:52.761753+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "f3421f1546dd47087759f3e302ea5fe5dff59305",
+      "version": "0.1.7",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T060208204111Z-fix-github-ci-gitleaks-module.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T060208204111Z-fix-github-ci-gitleaks-module.md",
+      "briefing_sha256": "5b4e4b85224917703c49e5230657ef55e5bec80ce8e19ceafb43274dfd0e0561",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 34,
+        "nodes": 593,
+        "edges": 1564
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T060955348295Z-fix-pr-head-version-validation",
+      "task_name": "fix-pr-head-version-validation",
+      "completed_at": "2026-07-13T06:11:10.652143+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "56f897143926e283e11a7bffb78f4acff78bb09f",
+      "version": "0.1.8",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T060955348295Z-fix-pr-head-version-validation.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "tools/check_version_record.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T060955348295Z-fix-pr-head-version-validation.md",
+      "briefing_sha256": "727a905faf77b188761bad05866909293032491bb1bdaafe609a9e7fa00fe1f6",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 34,
+        "nodes": 593,
+        "edges": 1564
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T062005041675Z-fix-pr-shallow-history-validation",
+      "task_name": "fix-pr-shallow-history-validation",
+      "completed_at": "2026-07-13T06:21:01.237549+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "1c08a54e142ddc2343365a2dede9352eb23f06fc",
+      "version": "0.1.9",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "tools/check_version_record.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T062005041675Z-fix-pr-shallow-history-validation.md",
+      "briefing_sha256": "ac530f6d3e1854aa10f7094027662c4f8d06103a0f731ee3aeb2ab7288e15b2e",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 34,
+        "nodes": 594,
+        "edges": 1566
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T062350142482Z-record-failed-v0.1.9-attestation",
+      "task_name": "record-failed-v0.1.9-attestation",
+      "completed_at": "2026-07-13T06:23:50.367303+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "18c5e71f26dc06f4cd60d147b61c51efc65514c3",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "attestation_acceptance_2"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: attestation_acceptance_2",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T062350142482Z-record-failed-v0.1.9-attestation.md",
+      "briefing_sha256": "c01c2768cc9a5aebdf6771db263e06936c05e5f36a63ccddbf46badd2b1d5dee",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 34,
+        "nodes": 594,
+        "edges": 1566
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T063634633121Z-fix-portable-acceptance-shells",
+      "task_name": "fix-portable-acceptance-shells",
+      "completed_at": "2026-07-13T06:37:40.240721+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "998ca16eeb5598b708d5b73a6ed49c4775ad7864",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T063634633121Z-fix-portable-acceptance-shells.md",
+        "workflow/acceptance.py",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "tools/attest_repository.py",
+        "workflow/promote.py",
+        "workflow/run.py"
+      ],
+      "failing_checks": [
+        "biome_fixture"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: biome_fixture",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T063634633121Z-fix-portable-acceptance-shells.md",
+      "briefing_sha256": "64c8114a19ec6dc7fff62fc787005fde06010438293cb5c5ec89b0a318088c37",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 606,
+        "edges": 1597
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T063820355657Z-fix-portable-acceptance-shells-retry",
+      "task_name": "fix-portable-acceptance-shells-retry",
+      "completed_at": "2026-07-13T06:39:11.397627+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "998ca16eeb5598b708d5b73a6ed49c4775ad7864",
+      "version": "0.1.10",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T063634633121Z-fix-portable-acceptance-shells.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T063820355657Z-fix-portable-acceptance-shells-retry.md",
+        "workflow/acceptance.py",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "tools/attest_repository.py",
+        "workflow/promote.py",
+        "workflow/run.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T063820355657Z-fix-portable-acceptance-shells-retry.md",
+      "briefing_sha256": "6a4eab4a131b3929d027cb47e368afc63533aead83cb47174af2456b0a260d62",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 606,
+        "edges": 1597
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T064951850604Z-add-redacted-ci-gate-diagnostics",
+      "task_name": "add-redacted-ci-gate-diagnostics",
+      "completed_at": "2026-07-13T06:50:30.870440+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "5040c8ecb0a8f9779a065127c82983bde71aaf89",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T064951850604Z-add-redacted-ci-gate-diagnostics.md",
+      "briefing_sha256": "95dd77e37a1cd74d14678d1aabc86dbdbbb67784fabe2257c9f43eee66059f09",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 606,
+        "edges": 1597
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T065043821488Z-add-redacted-ci-gate-diagnostics-retry",
+      "task_name": "add-redacted-ci-gate-diagnostics-retry",
+      "completed_at": "2026-07-13T06:51:21.996440+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "5040c8ecb0a8f9779a065127c82983bde71aaf89",
+      "version": "0.1.11",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "workflow/run.py",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T065043821488Z-add-redacted-ci-gate-diagnostics-retry.md",
+      "briefing_sha256": "677fcd1dd773e2e31425831cef04bcd45ea3555905e1a2f565334a38ab5908ac",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 606,
+        "edges": 1597
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T065753464826Z-fix-python312-acceptance-portability",
+      "task_name": "fix-python312-acceptance-portability",
+      "completed_at": "2026-07-13T06:59:36.450320+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "5bc9957c2c4a0004e8a799ad9232854d5814ddf3",
+      "version": "0.1.12",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "tests/test_workflow.py",
+        "tools/attest_repository.py",
+        "workflow/acceptance.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "Tasks/multi-cli-workflow-lab/20260713T065753464826Z-fix-python312-acceptance-portability.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T065753464826Z-fix-python312-acceptance-portability.md",
+      "briefing_sha256": "869bff030f7f452748f5a7274e8b64a466215fab3ef789c914ba7ab95c12bf44",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 606,
+        "edges": 1597
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T070333832633Z-upgrade-github-actions-node24",
+      "task_name": "upgrade-github-actions-node24",
+      "completed_at": "2026-07-13T07:04:24.621333+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "7da34054834b5fc45ebd6ed0a28ac30b5e573b73",
+      "version": "0.1.13",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "Tasks/multi-cli-workflow-lab/20260713T070333832633Z-upgrade-github-actions-node24.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T070333832633Z-upgrade-github-actions-node24.md",
+      "briefing_sha256": "c168c1ad147939f97c29c2eee0ce7ab0f2c3838a7d19f8da3af858aa22f040be",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 609,
+        "edges": 1607
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T074954893714Z-consolidate-pr1-into-pr2",
+      "task_name": "consolidate-pr1-into-pr2",
+      "completed_at": "2026-07-13T07:57:42.560521+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "a3b11be59e233daf0914707a9895125a5a4f3328",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "DESIGN.md",
+        "HOOKS.md",
+        "README.md",
+        "VERSION",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T074954893714Z-consolidate-pr1-into-pr2.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "sage",
+        "sage.ps1",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/install.sh",
+        "scripts/preflight.ps1",
+        "scripts/preflight.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "tools/audit_sprite_game.py",
+        "tools/lab.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [
+        "audit_sprite_syntax"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: audit_sprite_syntax",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T074954893714Z-consolidate-pr1-into-pr2.md",
+      "briefing_sha256": "8469a48703457c86e07749d11e6f569d37c4ecb9b3d41eab84d0c3d883c2fb20",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 609,
+        "edges": 1607
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T075818622652Z-consolidate-pr1-into-pr2-retry",
+      "task_name": "consolidate-pr1-into-pr2-retry",
+      "completed_at": "2026-07-13T07:59:20.344173+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "a3b11be59e233daf0914707a9895125a5a4f3328",
+      "version": "0.1.14",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/workflows/ci.yml",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "DESIGN.md",
+        "HOOKS.md",
+        "README.md",
+        "VERSION",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T074954893714Z-consolidate-pr1-into-pr2.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T075818622652Z-consolidate-pr1-into-pr2-retry.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/sprite-game-audit.json",
+        "sage",
+        "sage.ps1",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/install.sh",
+        "scripts/preflight.ps1",
+        "scripts/preflight.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "tools/audit_sprite_game.py",
+        "tools/lab.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T075818622652Z-consolidate-pr1-into-pr2-retry.md",
+      "briefing_sha256": "bf5201a378cf13427de6cbe131200c07c7024f9933e4667f222695f1a766111f",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 614,
+        "edges": 1617
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T080444729193Z-restore-changelog-history",
+      "task_name": "restore-changelog-history",
+      "completed_at": "2026-07-13T08:07:52.283518+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "c986a49b4b3217126feceb5176c8564dce12d048",
+      "version": "0.1.15",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "CHANGELOG.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T080444729193Z-restore-changelog-history.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md"
+      ],
+      "failing_checks": [],
+      "stage_agents": [],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T080444729193Z-restore-changelog-history.md",
+      "briefing_sha256": "7dc522e1718f1d1fc66273c1e2eb524307c22db6e19365d87dc9f8d25b4b9618",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 614,
+        "edges": 1617
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T082502602850Z-pr2-r5-docs-v0.1.16",
+      "task_name": "pr2-r5-docs-v0.1.16",
+      "completed_at": "2026-07-13T08:25:09.003400+00:00",
+      "status": "failed",
+      "route": "standard",
+      "source_head": "4a55ccfb40f1519a9dc23295950e406dc33c3667",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T082502602850Z-pr2-r5-docs-v0.1.16.md",
+      "briefing_sha256": "f47a90557dfc7cd254ca7bb213ed99d1df69a4a0537523fe0e687d420960b5b7",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 614,
+        "edges": 1617
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T082546306205Z-pr2-r5-docs-v0.1.16-retry",
+      "task_name": "pr2-r5-docs-v0.1.16-retry",
+      "completed_at": "2026-07-13T08:31:15.646444+00:00",
+      "status": "failed",
+      "route": "standard",
+      "source_head": "4a55ccfb40f1519a9dc23295950e406dc33c3667",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T082546306205Z-pr2-r5-docs-v0.1.16-retry.md",
+      "briefing_sha256": "71b24cb0ed9bd6a9d3665b9c4808893a0027c7de79f21bb666cf850cbcb04dac",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 614,
+        "edges": 1617
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T083230457533Z-pr2-r5-docs-v0.1.16-codex-retry",
+      "task_name": "pr2-r5-docs-v0.1.16-codex-retry",
+      "completed_at": "2026-07-13T08:34:54.610199+00:00",
+      "status": "automated_gates_passed",
+      "route": "standard",
+      "source_head": "4a55ccfb40f1519a9dc23295950e406dc33c3667",
+      "version": "0.1.16",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "docs/sage-0.9-delivery.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T082502602850Z-pr2-r5-docs-v0.1.16.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T082546306205Z-pr2-r5-docs-v0.1.16-retry.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T083230457533Z-pr2-r5-docs-v0.1.16-codex-retry.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/completion-audit.md",
+        "reports/pr2-release-handoff.md",
+        "reports/process-recommendation.md"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex-direct"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T083230457533Z-pr2-r5-docs-v0.1.16-codex-retry.md",
+      "briefing_sha256": "edf95b539cac68299162fe110b713302afab85860b4ac9af22489caee50ec575",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 614,
+        "edges": 1617
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T084751834064Z-fix-merge-version-check-v0.1.17",
+      "task_name": "fix-merge-version-check-v0.1.17",
+      "completed_at": "2026-07-13T08:50:07.078877+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "bf4c764d2f2ec984dfd7f9cae4d4f722654c113d",
+      "version": "0.1.17",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260713T084751834064Z-fix-merge-version-check-v0.1.17.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "tests/test_knowledge.py",
+        "tools/check_version_record.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex-direct"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T084751834064Z-fix-merge-version-check-v0.1.17.md",
+      "briefing_sha256": "c34cc537cde64593f6fa074551946a2629ac9b7008cfcb907c3c28d53daed6e7",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 614,
+        "edges": 1617
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T105824662273Z-stream-cli-control-v0.1.18",
+      "task_name": "stream-cli-control-v0.1.18",
+      "completed_at": "2026-07-13T11:14:56.746961+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T105824662273Z-stream-cli-control-v0.1.18.md",
+      "briefing_sha256": "82d283299b0882966aa3f25afbaf0a1e90277e8408f37e309d43f3219118755e",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 620,
+        "edges": 1647
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T111654829980Z-stream-cli-control-v0.1.18-claude-retry",
+      "task_name": "stream-cli-control-v0.1.18-claude-retry",
+      "completed_at": "2026-07-13T11:43:10.690479+00:00",
+      "status": "failed",
+      "route": "standard",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "workflow/README.md",
+        "workflow/config.json",
+        "workflow/run.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [
+        "acceptance_2"
+      ],
+      "stage_agents": [
+        "claude",
+        "claude"
+      ],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: acceptance_2",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T111654829980Z-stream-cli-control-v0.1.18-claude-retry.md",
+      "briefing_sha256": "1395fea4d3054da982a08df75bbf6b594c105b688871662c8b0e1b9bb0843251",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 620,
+        "edges": 1647
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T114430620648Z-stream-cli-control-v0.1.18-agy-retry",
+      "task_name": "stream-cli-control-v0.1.18-agy-retry",
+      "completed_at": "2026-07-13T11:56:12.765955+00:00",
+      "status": "automated_gates_passed",
+      "route": "fast",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": "0.1.18",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "workflow/README.md",
+        "workflow/config.json",
+        "workflow/run.py",
+        "workflow/task.example.json",
+        "workflow/task_config.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "agy",
+        "agy"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T114430620648Z-stream-cli-control-v0.1.18-agy-retry.md",
+      "briefing_sha256": "3f96387e8c633e597defc0709a6899b15decd2d0a7007e8459f7138af4ef8f34",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 620,
+        "edges": 1647
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260713T234016300356Z-promotion-signed-knowledge-v0.1.19",
+      "task_name": "promotion-signed-knowledge-v0.1.19",
+      "completed_at": "2026-07-13T23:58:19.900017+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260713T234016300356Z-promotion-signed-knowledge-v0.1.19.md",
+      "briefing_sha256": "701be255e5932912885a9dacc9aa9d90f424f7666bbabbcf0e5b6962b41b2723",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 620,
+        "edges": 1647
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T000023669507Z-promotion-signed-knowledge-v0.1.19-agy-retry",
+      "task_name": "promotion-signed-knowledge-v0.1.19-agy-retry",
+      "completed_at": "2026-07-14T00:08:40.653347+00:00",
+      "status": "failed",
+      "route": "fast",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "workflow/README.md",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/promote.py"
+      ],
+      "failing_checks": [
+        "acceptance_2"
+      ],
+      "stage_agents": [
+        "agy",
+        "agy"
+      ],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: acceptance_2",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T000023669507Z-promotion-signed-knowledge-v0.1.19-agy-retry.md",
+      "briefing_sha256": "fac244fbb0c0760739e9b59d03e55b334218c6ee28dd41a58aa6424a14a623ad",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 620,
+        "edges": 1647
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T001404480437Z-bootstrap-promotion-signed-knowledge-v0.1.19",
+      "task_name": "bootstrap-promotion-signed-knowledge-v0.1.19",
+      "completed_at": "2026-07-14T00:14:25.387324+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": "0.1.19",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "workflow/README.md",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/promote.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T001404480437Z-bootstrap-promotion-signed-knowledge-v0.1.19.md",
+      "briefing_sha256": "3e8e3995742636ad72d87fa283e4b443a02d4ddedd66965d67c91967c584aabd",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 641,
+        "edges": 1754
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T001756292503Z-bootstrap-promotion-signed-knowledge-v0.1.20",
+      "task_name": "bootstrap-promotion-signed-knowledge-v0.1.20",
+      "completed_at": "2026-07-14T00:18:17.106390+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "5937fe95a14b38b5b4c46ad9197d0d598724c54a",
+      "version": "0.1.20",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "workflow/README.md",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/promote.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "codex"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T001756292503Z-bootstrap-promotion-signed-knowledge-v0.1.20.md",
+      "briefing_sha256": "a6a346d641618d0d8ef1683f9772d16b9c00cef70b4c687d679671e14424749d",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 35,
+        "nodes": 642,
+        "edges": 1758
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T004831805795Z-fix-verify-cwd-evidence-v0.1.21",
+      "task_name": "fix-verify-cwd-evidence-v0.1.21",
+      "completed_at": "2026-07-14T00:57:25.559697+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "ec07f113f2435317fff197610176e771bb33d955",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T004831805795Z-fix-verify-cwd-evidence-v0.1.21.md",
+      "briefing_sha256": "ebb57c4b3669405966e2d3a1046526e0c10536822443568b02609520719a7c6e",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 652,
+        "edges": 1778
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T005805612568Z-fix-verify-cwd-evidence-v0.1.21-claude-retry",
+      "task_name": "fix-verify-cwd-evidence-v0.1.21-claude-retry",
+      "completed_at": "2026-07-14T01:09:59.332267+00:00",
+      "status": "failed",
+      "route": "standard",
+      "source_head": "ec07f113f2435317fff197610176e771bb33d955",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [],
+      "failing_checks": [
+        "workflow_exception"
+      ],
+      "stage_agents": [],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: workflow_exception",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T005805612568Z-fix-verify-cwd-evidence-v0.1.21-claude-retry.md",
+      "briefing_sha256": "2df00d9ef4497201f7453c7df186c7961cf53ebb2b1b232a1a9e46e66405e606",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 652,
+        "edges": 1778
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T011231216436Z-fix-verify-cwd-evidence-v0.1.21-claude-retry-2",
+      "task_name": "fix-verify-cwd-evidence-v0.1.21-claude-retry-2",
+      "completed_at": "2026-07-14T01:32:58.056465+00:00",
+      "status": "automated_gates_passed",
+      "route": "standard",
+      "source_head": "ec07f113f2435317fff197610176e771bb33d955",
+      "version": "0.1.21",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "scripts/verify.ps1",
+        "scripts/verify.sh"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "claude",
+        "claude"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T011231216436Z-fix-verify-cwd-evidence-v0.1.21-claude-retry-2.md",
+      "briefing_sha256": "940d36c01bbd4868a73620a49b74623e2261b21d5a0c0d52e835df2d583f9979",
+      "codegraph": {
+        "status": "current",
+        "action": "init",
+        "files": 35,
+        "nodes": 652,
+        "edges": 1778
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T151402069586Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-14T15:14:35.930386+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "86e35717baf9803c6d9ab300fcc738d4cf1d15a4",
+      "version": "0.1.22",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/sage-merge-policy.json",
+        ".github/workflows/ci.yml",
+        "CHANGELOG.md",
+        "HOOKS.md",
+        "README.md",
+        "VERSION",
+        "docs/fail-closed-merge.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/acceptance-lock.sh",
+        "scripts/claude-stop-hook.py",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "tests/sop-run.test.js",
+        "tests/test_knowledge.py",
+        "tests/test_merge_pr.py",
+        "tests/test_sop_preflight.py",
+        "tests/test_stop_hook.py",
+        "tests/test_workflow.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_version_record.py",
+        "tools/merge_pr.py",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/run.py",
+        "workflows/README.md",
+        "workflows/sop-preflight.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "176d90dc25fc206b7dcdeee29cec9fb7e8ff206bf7ae411dc3936d92db1d95b0",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 42,
+        "nodes": 858,
+        "edges": 2421
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T160657218138Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-14T16:07:53.187278+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "86e35717baf9803c6d9ab300fcc738d4cf1d15a4",
+      "version": "0.1.23",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/sage-merge-policy.json",
+        ".github/workflows/ci.yml",
+        "CHANGELOG.md",
+        "HOOKS.md",
+        "README.md",
+        "VERSION",
+        "docs/fail-closed-merge.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T160657218138Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/acceptance-lock.sh",
+        "scripts/claude-stop-hook.py",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "tests/sop-run.test.js",
+        "tests/test_attest_repository.py",
+        "tests/test_knowledge.py",
+        "tests/test_merge_pr.py",
+        "tests/test_sop_preflight.py",
+        "tests/test_stop_hook.py",
+        "tests/test_workflow.py",
+        "tools/attest_repository.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_version_record.py",
+        "tools/merge_pr.py",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/run.py",
+        "workflows/README.md",
+        "workflows/sop-preflight.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T160657218138Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "5b4b619d61302f7baed0b5f487f7faaa320f876dbe412b2432ea8de1c10ddff7",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 43,
+        "nodes": 933,
+        "edges": 2711
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T161057739973Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-14T16:11:54.017515+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "86e35717baf9803c6d9ab300fcc738d4cf1d15a4",
+      "version": "0.1.24",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/sage-merge-policy.json",
+        ".github/workflows/ci.yml",
+        "CHANGELOG.md",
+        "HOOKS.md",
+        "README.md",
+        "VERSION",
+        "docs/fail-closed-merge.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T160657218138Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161057739973Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/acceptance-lock.sh",
+        "scripts/claude-stop-hook.py",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "tests/sop-run.test.js",
+        "tests/test_attest_repository.py",
+        "tests/test_audit_unattended_knowledge.py",
+        "tests/test_knowledge.py",
+        "tests/test_merge_pr.py",
+        "tests/test_sop_preflight.py",
+        "tests/test_stop_hook.py",
+        "tests/test_workflow.py",
+        "tools/attest_repository.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_version_record.py",
+        "tools/merge_pr.py",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/run.py",
+        "workflows/README.md",
+        "workflows/sop-preflight.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T161057739973Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "6223c4ed3a7dab04f7c95f00ffdf03c15dc6edef98aae64dcee455e1aed4f251",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 44,
+        "nodes": 943,
+        "edges": 2727
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T161210896256Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-14T16:13:06.820591+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "86e35717baf9803c6d9ab300fcc738d4cf1d15a4",
+      "version": "0.1.25",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/sage-merge-policy.json",
+        ".github/workflows/ci.yml",
+        "CHANGELOG.md",
+        "HOOKS.md",
+        "README.md",
+        "VERSION",
+        "docs/fail-closed-merge.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T160657218138Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161057739973Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161210896256Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/acceptance-lock.sh",
+        "scripts/claude-stop-hook.py",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "tests/sop-run.test.js",
+        "tests/test_attest_repository.py",
+        "tests/test_audit_unattended_knowledge.py",
+        "tests/test_knowledge.py",
+        "tests/test_merge_pr.py",
+        "tests/test_sop_preflight.py",
+        "tests/test_stop_hook.py",
+        "tests/test_workflow.py",
+        "tools/attest_repository.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_version_record.py",
+        "tools/merge_pr.py",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/run.py",
+        "workflows/README.md",
+        "workflows/sop-preflight.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T161210896256Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "a729cbc838605ea9368e48ee8dfa37af23b16a6a159ebf6479b1757b5835f137",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 44,
+        "nodes": 943,
+        "edges": 2727
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T182011751757Z-unattended-knowledge-upgrade",
+      "task_name": "unattended-knowledge-upgrade",
+      "completed_at": "2026-07-14T18:21:32.591787+00:00",
+      "status": "failed",
+      "route": "high",
+      "source_head": "86e35717baf9803c6d9ab300fcc738d4cf1d15a4",
+      "version": null,
+      "version_bumped": false,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/sage-merge-policy.json",
+        ".github/workflows/ci.yml",
+        "CHANGELOG.md",
+        "HOOKS.md",
+        "README.md",
+        "SAGE_RULES.md",
+        "VERSION",
+        "docs/fail-closed-merge.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T160657218138Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161057739973Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161210896256Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T182011751757Z-unattended-knowledge-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "prompts/04-review-crosscheck.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/sprite-game-audit.json",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/acceptance-lock.ps1",
+        "scripts/acceptance-lock.sh",
+        "scripts/claude-stop-hook.py",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "scripts/verify.ps1",
+        "scripts/verify.sh",
+        "tests/sop-run.test.js",
+        "tests/test_attest_repository.py",
+        "tests/test_audit_unattended_knowledge.py",
+        "tests/test_knowledge.py",
+        "tests/test_merge_pr.py",
+        "tests/test_sop_preflight.py",
+        "tests/test_stop_hook.py",
+        "tests/test_workflow.py",
+        "tools/attest_repository.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_version_record.py",
+        "tools/merge_pr.py",
+        "workflow/README.md",
+        "workflow/acceptance.py",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "workflow/version_snapshot.py",
+        "workflows/README.md",
+        "workflows/sop-preflight.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [
+        "capability_preflight",
+        "relevant_knowledge"
+      ],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Task failed closed. Investigate these checks before retrying: capability_preflight, relevant_knowledge",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T182011751757Z-unattended-knowledge-upgrade.md",
+      "briefing_sha256": "ef23341851a9be27c040d1605c7862666806684a8f234dd40631451c77123410",
+      "candidate_tree_sha256": null,
+      "codegraph": {
+        "status": "required_before_dispatch"
+      },
+      "stitch": {
+        "required": true,
+        "design_sha256": null,
+        "artifact_name": "STITCH_DESIGN.md"
+      }
+    },
+    {
+      "task_id": "20260714T182533085203Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-14T18:26:53.752629+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "86e35717baf9803c6d9ab300fcc738d4cf1d15a4",
+      "version": "0.1.26",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        ".github/sage-merge-policy.json",
+        ".github/workflows/ci.yml",
+        "CHANGELOG.md",
+        "HOOKS.md",
+        "README.md",
+        "SAGE_RULES.md",
+        "VERSION",
+        "docs/fail-closed-merge.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T151402069586Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T160657218138Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161057739973Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T161210896256Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T182011751757Z-unattended-knowledge-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T182533085203Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "prompts/04-review-crosscheck.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/sprite-game-audit.json",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/acceptance-lock.ps1",
+        "scripts/acceptance-lock.sh",
+        "scripts/claude-stop-hook.py",
+        "scripts/crosscheck.ps1",
+        "scripts/crosscheck.sh",
+        "scripts/selftest.ps1",
+        "scripts/selftest.sh",
+        "scripts/verify.ps1",
+        "scripts/verify.sh",
+        "tests/sop-run.test.js",
+        "tests/test_attest_repository.py",
+        "tests/test_audit_unattended_knowledge.py",
+        "tests/test_knowledge.py",
+        "tests/test_merge_pr.py",
+        "tests/test_sop_preflight.py",
+        "tests/test_stop_hook.py",
+        "tests/test_workflow.py",
+        "tools/attest_repository.py",
+        "tools/audit_unattended_knowledge.py",
+        "tools/check_version_record.py",
+        "tools/merge_pr.py",
+        "workflow/README.md",
+        "workflow/acceptance.py",
+        "workflow/evidence.py",
+        "workflow/knowledge.py",
+        "workflow/promote.py",
+        "workflow/run.py",
+        "workflow/version_snapshot.py",
+        "workflows/README.md",
+        "workflows/sop-preflight.py",
+        "workflows/sop-run.js"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T182533085203Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "bcdb97499699940e486cd4e12afb4640e8e7a5d6e3e8db2726b27acb2e8bf7e3",
+      "candidate_tree_sha256": "61975555e8201d8fe6829aef9f563f933a95580b17a0e26639da4b92003c1d7d",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 45,
+        "nodes": 1002,
+        "edges": 3006
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T183207169817Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-14T18:33:30.097285+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "33f26f9d9513b97f1b0e0b109a6030bc4264ae13",
+      "version": "0.1.27",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T183207169817Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/unattended-knowledge-audit.json",
+        "scripts/crosscheck.sh",
+        "scripts/verify.sh"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T183207169817Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "7e82ad3cbd44184b22a266214b6233a89b6412478667e29a4525bb2853d28a87",
+      "candidate_tree_sha256": "b591add56806b15e0e5cc12545de4bb529a383fdd747d7d3b3d7137727d549c7",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 45,
+        "nodes": 1002,
+        "edges": 3006
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260714T184859561756Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-14T18:50:20.693493+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "9c7a2835155ff5502d1b45e6b279d813e24c3b81",
+      "version": "0.1.28",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "CHANGELOG.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260714T184859561756Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "tests/test_attest_repository.py",
+        "tools/attest_repository.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260714T184859561756Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "793a20048544acdd195a7d054f1dff21d678835dfea4b2c248fb4e9ba042d106",
+      "candidate_tree_sha256": "8cea1e0a581d5b9c6a46134a6539ea6dca76b7c6e8d1476ca9ca836fc7193915",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 45,
+        "nodes": 1003,
+        "edges": 3011
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260715T010948875438Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-15T01:11:18.390176+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "b58f0fe16937f5bbe14ce4f049ae5f90e409a82b",
+      "version": "0.1.29",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/public-release-topology.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260715T010948875438Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "templates/github/public-ci.yml",
+        "templates/github/public-oracle.yml",
+        "templates/github/sage-public-merge-policy.json",
+        "tests/test_public_export.py",
+        "tools/public_export.py",
+        "tools/verify_public_export.py",
+        "workflow/public_export.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260715T010948875438Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "2c79a588e8199fa56598225245878b5e1df3c222435936a61b940d3dab53eb00",
+      "candidate_tree_sha256": "2b933f73671bbadac69bb6a9c2e1497a4bd5147b7419c38edbbf6df521f26f40",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 52,
+        "nodes": 1112,
+        "edges": 3370
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260715T011439993908Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-15T01:16:09.118554+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "b58f0fe16937f5bbe14ce4f049ae5f90e409a82b",
+      "version": "0.1.30",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "CHANGELOG.md",
+        "README.md",
+        "docs/public-release-topology.md",
+        "knowledge/Projects/multi-cli-workflow-lab/Memory.md",
+        "knowledge/Projects/multi-cli-workflow-lab/State.json",
+        "knowledge/Projects/multi-cli-workflow-lab/Ver.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260715T010948875438Z-unattended-governance-upgrade.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260715T011439993908Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/governance-recovery-v0.13.2.md",
+        "reports/unattended-knowledge-audit.json",
+        "templates/github/public-ci.yml",
+        "templates/github/public-oracle.yml",
+        "templates/github/sage-public-merge-policy.json",
+        "tests/test_public_export.py",
+        "tools/public_export.py",
+        "tools/verify_public_export.py",
+        "workflow/public_export.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260715T011439993908Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "a84f21c60512fdafd8aa10ad6dd6857d648f656057e09bfd156a689cd9f340b5",
+      "candidate_tree_sha256": "b1e978f1409bfb004c816bec3dfcbf4ed279b7eb17ffce0d026ab1a3c0841321",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 52,
+        "nodes": 1112,
+        "edges": 3370
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260715T012739591804Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-15T01:29:09.547041+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "21df88fd1171f7ed9a4607339533c722f29a0772",
+      "version": "0.1.31",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "CHANGELOG.md",
+        "docs/public-release-topology.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260715T012739591804Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/unattended-knowledge-audit.json",
+        "templates/github/public-ci.yml",
+        "tests/test_public_export.py",
+        "workflow/public_export.py"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260715T012739591804Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "0eb98426cbfd18efb1b5911d8663c77e741ffb22744f84f1aa1a6e3e8ad00f1e",
+      "candidate_tree_sha256": "3a91cb4f0a3d461641bfb201b4853df7e30d9416f252b6fde5ec6c49d70c2cbf",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 52,
+        "nodes": 1112,
+        "edges": 3370
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    },
+    {
+      "task_id": "20260715T020931462241Z-unattended-governance-upgrade",
+      "task_name": "unattended-governance-upgrade",
+      "completed_at": "2026-07-15T02:11:20.255153+00:00",
+      "status": "automated_gates_passed",
+      "route": "high",
+      "source_head": "4d6238e6276e02525cafe9b0c91ace406c5bad9e",
+      "version": "0.1.32",
+      "version_bumped": true,
+      "languages": [
+        "javascript",
+        "python",
+        "shell"
+      ],
+      "changed_files": [
+        "README.md",
+        "knowledge/Tasks/multi-cli-workflow-lab/20260715T020931462241Z-unattended-governance-upgrade.md",
+        "knowledge/Topics/Languages/javascript.md",
+        "knowledge/Topics/Languages/python.md",
+        "knowledge/Topics/Languages/shell.md",
+        "reports/unattended-knowledge-audit.json"
+      ],
+      "failing_checks": [],
+      "stage_agents": [
+        "orchestrator"
+      ],
+      "distilled_lesson": "Automated gates passed with an immutable candidate, current CodeGraph, and a shared knowledge briefing. Reuse this route and gate set.",
+      "task_note": "Tasks/multi-cli-workflow-lab/20260715T020931462241Z-unattended-governance-upgrade.md",
+      "briefing_sha256": "4bed1dd90cc12ef7c2b94bed4ffa9dc86116bbfed96c1d833e51ad9185566098",
+      "candidate_tree_sha256": "cbd2f7c72c5aa342616cd11b17f8d7961fa4a700649cc5ccfb805c0cdd1ccb9b",
+      "codegraph": {
+        "status": "current",
+        "action": "sync",
+        "files": 52,
+        "nodes": 1112,
+        "edges": 3370
+      },
+      "stitch": {
+        "required": false,
+        "design_sha256": null,
+        "artifact_name": null
+      }
+    }
+  ]
+}

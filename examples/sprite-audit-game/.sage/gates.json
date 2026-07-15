@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "gates": [
+    {
+      "id": "sprite_game_tests",
+      "globs": ["*.js"],
+      "required_files": ["game-core.js"],
+      "command": ["node", "--test", "test/game-core.test.js"],
+      "append_files": false
+    }
+  ]
+}

@@ -4,6 +4,39 @@
 Claude Code 的軟件開發流程。目標不是比較聊天表現，而是找出在相同需求下，
 哪種角色分工能產生最可靠、最容易審計的改動。
 
+> [!IMPORTANT]
+> **公開發行鏡像** — [`eason-tien/sage-public`](https://github.com/eason-tien/sage-public)
+> 是從私有 source-of-truth `eason-tien/sage` 產生、移除來源歷史與私有 oracle 的公開版本。
+> 每個候選 tree 都以 SSH certificate 綁定；公開 CI 綠燈只表示自動閘門通過，R5 與合併仍須人工完成。
+> © 2026 Eason Tian · [MIT License](LICENSE)
+
+### 驗證公開證書
+
+```bash
+python3 tools/verify_public_export.py \
+  --repo . \
+  --allowed-signers workflow/trusted_signers \
+  --expected-repository eason-tien/sage-public \
+  --expected-source-repository eason-tien/sage
+```
+
+### 安裝
+
+先執行 `git clone https://github.com/eason-tien/sage-public.git` 並進入
+`sage-public`。macOS／Linux：
+
+```bash
+bash scripts/install.sh --prefix ~/.local
+~/.local/bin/sage version
+```
+
+Windows PowerShell（目前工作階段）：
+
+```powershell
+. "$PWD\sage.ps1"
+sage version
+```
+
 ## 原則
 
 - 同一個 fixture、同一份公開需求、同一套隱藏驗收。

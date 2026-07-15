@@ -1,0 +1,81 @@
+{
+  "version": 5,
+  "timeout_seconds": 900,
+  "routes": {
+    "fast": {
+      "description": "Agy implementation followed by deterministic gates",
+      "stages": ["agy-implement", "final-gates"]
+    },
+    "standard": {
+      "description": "Claude implementation followed by deterministic gates",
+      "stages": ["claude-implement", "final-gates"]
+    },
+    "high": {
+      "description": "Separated planner, implementer, verifier, and reviewer",
+      "stages": [
+        "agy-plan",
+        "codex-implement",
+        "interim-gates",
+        "claude-audit",
+        "conditional-codex-correction",
+        "final-gates"
+      ]
+    }
+  },
+  "models": {
+    "agy": "Gemini 3.1 Pro (High)",
+    "claude": "sonnet",
+    "codex": "default authenticated model"
+  },
+  "budget": {
+    "max_turns": 6,
+    "token_budget": 300000,
+    "cost_budget_usd": 25.0,
+    "total_timeout_seconds": 3600,
+    "stage_timeout_seconds": 900,
+    "stage_idle_timeout_seconds": 300,
+    "heartbeat_interval_seconds": 5,
+    "termination_grace_seconds": 5,
+    "max_capture_bytes": 4194304,
+    "stage_reservations": {
+      "agy": { "tokens": 60000, "cost_usd": 4.0 },
+      "claude": { "tokens": 60000, "cost_usd": 5.0 },
+      "codex": { "tokens": 60000, "cost_usd": 5.0 }
+    }
+  },
+  "knowledge": {
+    "format": "obsidian-markdown",
+    "preflight_required": true,
+    "shared_read_only": true,
+    "post_task_distillation_required": true,
+    "codegraph_required": true,
+    "stitch_required_for_web_ui_and_wpf": true,
+    "stitch_auth_modes": ["google_ultra_web", "api_key", "oauth"],
+    "stitch_design_artifact": "STITCH_DESIGN.md",
+    "version_record_required": true,
+    "version_policy": "automatic_patch_after_successful_task"
+  },
+  "forbidden_flags": [
+    "--dangerously-skip-permissions",
+    "--dangerously-bypass-approvals-and-sandbox",
+    "--yolo"
+  ],
+  "promotion": {
+    "branch_prefix": "codex/",
+    "pull_request_state": "draft",
+    "wait_for_github_ci": true,
+    "automatic_merge": false,
+    "r5_human_verification": "pending",
+    "merge_authorized": false
+  },
+  "semantics": {
+    "automated_gates_passed": "All machine gates and GitHub CI passed; ready for human R5 verification only",
+    "r5_human_verification": "May be changed from pending only by the human who reruns SAGE verify",
+    "merge_authorized": "Always false in agent-produced artifacts"
+  },
+  "sage_route_map": {
+    "A": ["standard", "high"],
+    "B": ["read-only research and planning"],
+    "C": ["fast"]
+  }
+}
