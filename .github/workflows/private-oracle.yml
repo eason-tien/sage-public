@@ -1,0 +1,38 @@
+name: SAGE Private Oracle
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+
+jobs:
+  private-oracle:
+    name: Private oracle
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout trusted base verifier
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: trusted
+          persist-credentials: false
+      - name: Checkout untrusted candidate as data
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: candidate
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Verify signed private-oracle certificate
+        run: |
+          python trusted/tools/verify_public_export.py \
+            --repo candidate \
+            --allowed-signers trusted/workflow/trusted_signers \
+            --expected-repository eason-tien/sage-public \
+            --expected-source-repository eason-tien/sage

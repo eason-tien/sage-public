@@ -1,0 +1,8 @@
+runs/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.pre-commit-cache/
+# Generated verification evidence is kept in run artifacts, not source control.
+verify-*.log
